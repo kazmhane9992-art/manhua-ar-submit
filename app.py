@@ -35,6 +35,7 @@ from hub_sync import (
     upload_jsonl_to_repo,
 )
 from reviewer import count_corrected, review_pairs
+from translator import get_translation_model, translate_text
 
 
 # ---------------------------------------------------------------------------
@@ -300,6 +301,42 @@ def render_review_mode() -> None:
 
 
 # ---------------------------------------------------------------------------
+# وضع الترجمة عبر النموذج المدرب
+# ---------------------------------------------------------------------------
+def render_translate_mode() -> None:
+    st.header("الترجمة عبر النموذج المدرب")
+    model_id = get_translation_model()
+    st.caption(f"النموذج: `{model_id}` — يُستدعى عبر Hugging Face Inference (مجاني ضمن الحدود).")
+
+    if not is_cloud():
+        st.info("للترجمة الفعلية تحتاج تشغيل التطبيق مع HF_TOKEN في بيئة سحابية (أو مضبوطاً محلياً).")
+
+    col1, col2 = st.columns([1, 1])
+    with col1:
+        src_text = st.text_area("النص الأصلي", height=180, key="tr_src",
+                                placeholder="الصق هنا الجملة أو الفقرة المراد ترجمتها إلى العربية...")
+        src_lang = st.radio("لغة النص الأصلي", options=["auto", "en", "ko"],
+                            format_func=lambda x: {"auto": "تلقائي", "en": "الإنجليزية", "ko": "الكورية"}[x],
+                            horizontal=True, key="tr_lang")
+    with col2:
+        out_text = st.text_area("الترجمة العربية", height=180, key="tr_out",
+                                placeholder="ستظهر الترجمة هنا بعد النقر على زر الترجمة.")
+
+    if st.button("ترجم الآن", type="primary", use_container_width=True):
+        if not src_text.strip():
+            st.warning("اكتب أو الصق نصاً أولاً.")
+            st.stop()
+        with st.spinner("النموذج يترجم... قد يستغرق عدة ثوانٍ."):
+            result = translate_text(src_text, source_lang=src_lang)
+        if result:
+            st.session_state.tr_out = result
+            out_text = result
+            st.success("تمت الترجمة.")
+        else:
+            st.error("فشلت الترجمة. تأكد أن النموذج `{model_id}` موجود ومُدرَّب، وأن HF_TOKEN مضبوط في Secrets.")
+
+
+# ---------------------------------------------------------------------------
 # وضع الإحصائيات: عرض ملفات التجميع والأزواج
 # ---------------------------------------------------------------------------
 def render_stats_mode() -> None:
@@ -357,7 +394,7 @@ if is_cloud():
 
 mode = st.radio(
     "الوضع",
-    options=["رفع للتدريب (المساهمون)", "مراجعة وتدقيق (الفريق)", "إحصائيات البيانات"],
+    options=["رفع للتدريب (المساهمون)", "مراجعة وتدقيق (الفريق)", "إحصائيات البيانات", "الترجمة عبر النموذج"],
     horizontal=True,
     key="app_mode",
 )
@@ -366,5 +403,7 @@ if mode.startswith("رفع"):
     render_submit_mode()
 elif mode.startswith("إحص"):
     render_stats_mode()
+elif mode.startswith("ترجم"):
+    render_translate_mode()
 else:
     render_review_mode()
