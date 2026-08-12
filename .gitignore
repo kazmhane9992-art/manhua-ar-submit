@@ -2,4 +2,5 @@
 __pycache__/
 *.pyc
 training_data/
-.streamlit/
+.streamlit/*
+!.streamlit/config.toml
