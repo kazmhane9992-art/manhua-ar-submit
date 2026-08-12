@@ -124,13 +124,22 @@ def _extract_json(text: str) -> list | None:
 
 
 def _review_batch(client, batch: list[dict], source_lang: str, glossary_text: str, extra_notes: str, model: str) -> list[dict]:
-    """مراجعة دفعة واحدة من الجمل. يعيد قائمة بنفس ترتيب الدفعة."""
+    """مراجعة دفعة واحدة من الجمل. يعيد قائمة بنفس ترتيب الدفعة.
+
+    عند فشل استدعاء النموذج (انقطاع، نقص رصيد، خطأ API...) تُقبل الترجمات
+    كما هي دون تعطيل سير الرفع.
+    """
     result_map = {p["i"]: p for p in batch}
-    response = client.chat.completions.create(
-        model=model,
-        messages=_build_messages(batch, source_lang, glossary_text, extra_notes),
-        temperature=0.2,
-    )
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=_build_messages(batch, source_lang, glossary_text, extra_notes),
+            temperature=0.2,
+        )
+    except Exception as e:
+        print(f"[reviewer] فشل استدعاء النموذج ({model}): {e}")
+        print("[reviewer] تُقبل الترجمات كما هي دون تصحيح.")
+        return [{"i": p["i"], "status": "accepted", "translation": p["translation"], "reason": ""} for p in batch]
     parsed = _extract_json(response.choices[0].message.content)
     if parsed is None:
         # فشل تحليل الرد: اعتمد الترجمات كما هي
