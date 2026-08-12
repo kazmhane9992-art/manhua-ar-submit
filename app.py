@@ -163,7 +163,7 @@ def render_submit_mode() -> None:
         fmt = "simple"
         strip_bubbles = True
         instruction = f"ترجم النص التالي من {LANG_LABELS[lang]} إلى العربية."
-        file_name = f"submitted_{lang}_{len(TRAINING_DIR.glob('*.jsonl')) + 1}.jsonl"
+        file_name = f"submitted_{lang}_{len(list(TRAINING_DIR.glob('*.jsonl'))) + 1}.jsonl"
         path, count = save_jsonl(reviewed, file_name, fmt, instruction, lang, strip_bubbles)
 
         c1, c2, c3, c4 = st.columns(4)
