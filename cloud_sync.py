@@ -123,18 +123,13 @@ def archive_jsonl_in_repo(repo_id: str, file_names: list[str]) -> int:
 
 def upload_jsonl_to_repo(repo_id: str, local_path: Path, commit_message: str | None = None) -> bool:
     """رفع ملف JSONL محلي إلى مستودع البيانات. يعيد True عند النجاح."""
-    from huggingface_hub import RepositoryNotFoundError, HfApi
-
     if not repo_id or not local_path.exists():
         return False
     api = get_api()
     try:
-        api.repo_info(repo_id=repo_id, repo_type="dataset")
-    except RepositoryNotFoundError:
-        try:
-            api.create_repo(repo_id=repo_id, repo_type="dataset", exist_ok=True)
-        except Exception:
-            return False
+        api.create_repo(repo_id=repo_id, repo_type="dataset", exist_ok=True)
+    except Exception:
+        return False
     try:
         api.upload_file(
             path_or_fileobj=str(local_path),
