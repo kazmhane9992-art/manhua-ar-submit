@@ -1,0 +1,2419 @@
+{
+  "entries": [
+    {
+      "term_en": "Level",
+      "term_ko": "레벨",
+      "translation_ar": "المستوى",
+      "category": "skill",
+      "notes": "مستوى الشخصية في نظام اللعبة. مثال: Level 10 = المستوى العاشر."
+    },
+    {
+      "term_en": "Hunter",
+      "term_ko": "헌터",
+      "translation_ar": "الصياد",
+      "category": "person",
+      "notes": "مهنة في العالم: صائد الوحوش داخل البوابات. الصيادون البشر الذين يدخلون الزنزانات."
+    },
+    {
+      "term_en": "Solo Leveling",
+      "term_ko": "나 혼자만 레벨업",
+      "translation_ar": "تسوية الكيان",
+      "category": "title",
+      "notes": "اسم السلسلة. مثال على أن العنوان الكوري لا يترجم حرفياً."
+    },
+    {
+      "term_en": "Gate",
+      "term_ko": "게이트",
+      "translation_ar": "البوابة",
+      "category": "place",
+      "notes": "بوابة بين العالمين يتولد منها الوحوش."
+    },
+    {
+      "term_en": "Dungeon",
+      "term_ko": "던전",
+      "translation_ar": "الزنزانة",
+      "category": "place",
+      "notes": "الفضاء داخل البوابة حيث يظهر الوحوش والكنوز."
+    },
+    {
+      "term_en": "System",
+      "term_ko": "시스템",
+      "translation_ar": "النظام",
+      "category": "skill",
+      "notes": "نظام اللعبة الذي يمنح المهام والمكافآت للشخصية."
+    },
+    {
+      "term_en": "Quest",
+      "term_ko": "퀘스트",
+      "translation_ar": "مهمة",
+      "category": "skill",
+      "notes": "مهمة يفرضها النظام على الشخصية مقابل مكافأة."
+    },
+    {
+      "term_en": "Summoning",
+      "term_ko": "소환",
+      "translation_ar": "استدعاء",
+      "category": "skill",
+      "notes": "مهارة استدعاء كائن أو وحش لخدمة الصياد."
+    },
+    {
+      "term_en": "Shadow",
+      "term_ko": "그림자",
+      "translation_ar": "الظل",
+      "category": "skill",
+      "notes": "قدرة تخص قائد الظلال: إحياء الأموات كظلال مخلصة."
+    },
+    {
+      "term_en": "Rank",
+      "term_ko": "랭크",
+      "translation_ar": "المرتبة",
+      "category": "title",
+      "notes": "تصنيف قوة الصيادين (E إلى S). مثال: S-Rank = مرتبة S."
+    },
+    {
+      "term_en": "Guild",
+      "term_ko": "길드",
+      "translation_ar": "النقابة",
+      "category": "organization",
+      "notes": "تكتل الصيادين. مثال: نقابة الصيادين (Hunter Guild)."
+    },
+    {
+      "term_en": "Healer",
+      "term_ko": "힐러",
+      "translation_ar": "المداوي",
+      "category": "person",
+      "notes": "الصياد المتخصص في الشفاء داخل الزنزانات."
+    },
+    {
+      "term_en": "Necromancer",
+      "term_ko": "네크로맨서",
+      "translation_ar": "مستحضر الأموات",
+      "category": "person",
+      "notes": "فئة الساحر التي تستدعي الموتى. مرتبطة بمهارة الظلال."
+    },
+    {
+      "term_en": "Mana",
+      "term_ko": "마나",
+      "translation_ar": "المانا",
+      "category": "skill",
+      "notes": "طاقة سحرية تظهر مع عصر البوابات. تُنطق المانا في الترجمة العربية الشائعة."
+    },
+    {
+      "term_en": "Awakening",
+      "term_ko": "각성",
+      "translation_ar": "الصحوة",
+      "category": "skill",
+      "notes": "لحظة اكتساب الشخصية قواها في بداية القصة."
+    },
+    {
+      "term_en": "Monarch",
+      "term_ko": "군주",
+      "translation_ar": "المَلِك",
+      "category": "person",
+      "notes": "إله الوحوش الأعلى. مثال: ملك الشياطين أو ملوك الوحوش."
+    },
+    {
+      "term_en": "Party",
+      "term_ko": "파티",
+      "translation_ar": "الفريق",
+      "category": "organization",
+      "notes": "من مصطلحات الألعاب: مجموعة اللاعبين في الزنزانة. بديل مقبول: الفرقة."
+    },
+    {
+      "term_en": "Raid",
+      "term_ko": "레이드",
+      "translation_ar": "الغارة",
+      "category": "skill",
+      "notes": "من مصطلحات الألعاب: اقتحام الزنزانة. بديل مقبول: الاجتياح."
+    },
+    {
+      "term_en": "Boss Monster",
+      "term_ko": "보스 몬스터",
+      "translation_ar": "زعيم الوحوش",
+      "category": "person",
+      "notes": "من مصطلحات الألعاب: أقوى وحش في الزنزانة."
+    },
+    {
+      "term_en": "Experience Points",
+      "term_ko": "경험치",
+      "translation_ar": "نقاط الخبرة",
+      "category": "skill",
+      "notes": "من مصطلحات الألعاب: نقاط تتراكم لرفع المستوى."
+    },
+    {
+      "term_en": "Level Up",
+      "term_ko": "레벨 업",
+      "translation_ar": "رفع المستوى",
+      "category": "skill",
+      "notes": "من مصطلحات الألعاب: التقدم إلى مستوى أعلى."
+    },
+    {
+      "term_en": "Item Drop",
+      "term_ko": "아이템 드랍",
+      "translation_ar": "سقوط الغنائم",
+      "category": "object",
+      "notes": "من مصطلحات الألعاب: إسقاط الوحوش للغنائم عند هزيمتها."
+    },
+    {
+      "term_en": "Login",
+      "term_ko": "로그인",
+      "translation_ar": "تسجيل الدخول",
+      "category": "skill",
+      "notes": "من مصطلحات الألعاب: الدخول إلى اللعبة أو النظام."
+    },
+    {
+      "term_en": "Tutorial",
+      "term_ko": "튜토리얼",
+      "translation_ar": "المقدمة التعليمية",
+      "category": "skill",
+      "notes": "من مصطلحات الألعاب: مرحلة تعليم اللاعب أساسيات اللعب."
+    },
+    {
+      "term_en": "Virtual Reality",
+      "term_ko": "가상 현실",
+      "translation_ar": "الواقع الافتراضي",
+      "category": "skill",
+      "notes": "من مصطلحات الألعاب: العالم الافتراضي داخل اللعبة."
+    },
+    {
+      "term_en": "Health Gauge",
+      "term_ko": "체력 게이지",
+      "translation_ar": "مؤشر الصحة",
+      "category": "object",
+      "notes": "من مصطلحات الألعاب: شريط نقاط الحياة."
+    },
+    {
+      "term_en": "School",
+      "term_ko": "학교",
+      "translation_ar": "المدرسة",
+      "category": "place",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Student",
+      "term_ko": "학생",
+      "translation_ar": "الطالب / الطالبة",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Classroom",
+      "term_ko": "교실",
+      "translation_ar": "فصل دراسي",
+      "category": "place",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Teacher",
+      "term_ko": "선생님",
+      "translation_ar": "المعلم",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Exam",
+      "term_ko": "시험",
+      "translation_ar": "امتحان",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Grades",
+      "term_ko": "성적",
+      "translation_ar": "الدرجات / النتائج",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Homework",
+      "term_ko": "숙제",
+      "translation_ar": "الواجب المنزلي",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Friend",
+      "term_ko": "친구",
+      "translation_ar": "الصديق",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Class (group)",
+      "term_ko": "반",
+      "translation_ar": "الصف",
+      "category": "place",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Club",
+      "term_ko": "동아리",
+      "translation_ar": "النادي المدرسي",
+      "category": "organization",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Lunch Time",
+      "term_ko": "점심시간",
+      "translation_ar": "وقت الغداء",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Graduation",
+      "term_ko": "졸업",
+      "translation_ar": "التخرج",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Admission",
+      "term_ko": "입학",
+      "translation_ar": "دخول المدرسة",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Bullying",
+      "term_ko": "왕따",
+      "translation_ar": "التنمّر",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Transfer Student",
+      "term_ko": "전학생",
+      "translation_ar": "طالب منتقل",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "First Love",
+      "term_ko": "첫사랑",
+      "translation_ar": "الحب الأول",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Confession",
+      "term_ko": "고백",
+      "translation_ar": "اعتراف (بالمشاعر)",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Senior",
+      "term_ko": "선배",
+      "translation_ar": "الزميل الأكبر سناً",
+      "category": "person",
+      "notes": "لقب الكوري 선배: زميل أكبر سناً/أقدم في الدراسة أو العمل."
+    },
+    {
+      "term_en": "Junior",
+      "term_ko": "후배",
+      "translation_ar": "الزميل الأصغر سناً",
+      "category": "person",
+      "notes": "لقب الكوري 후배: زميل أصغر سناً/أحدث في الدراسة أو العمل."
+    },
+    {
+      "term_en": "School Rules",
+      "term_ko": "교칙",
+      "translation_ar": "قوانين المدرسة",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Academy",
+      "term_ko": "학원",
+      "translation_ar": "الأكاديمية",
+      "category": "organization",
+      "notes": "أكاديمية خصوصية للدراسة بعد المدرسة. تُنطق هاغوون."
+    },
+    {
+      "term_en": "Instructor",
+      "term_ko": "교관",
+      "translation_ar": "المُدرِّب / المُعلِّم",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Cadet",
+      "term_ko": "생도",
+      "translation_ar": "المُتدرب / الطالب",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Freshman",
+      "term_ko": "신입생",
+      "translation_ar": "طالب جديد / مبتدئ",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Semester",
+      "term_ko": "학기",
+      "translation_ar": "فصل دراسي",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Midterm",
+      "term_ko": "중간고사",
+      "translation_ar": "الاختبار النصفي",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Class President",
+      "term_ko": "반장",
+      "translation_ar": "رئيس الفصل / ممثل الصف",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Entrance Ceremony",
+      "term_ko": "입학식",
+      "translation_ar": "حفل الالتحاق / القبول",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Graduation Ceremony",
+      "term_ko": "졸업식",
+      "translation_ar": "حفل التخرج",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف المدرسة."
+    },
+    {
+      "term_en": "Love Triangle",
+      "term_ko": "삼각관계",
+      "translation_ar": "مثلث حب",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Breakup",
+      "term_ko": "이별",
+      "translation_ar": "الانفصال",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Fate / Destiny",
+      "term_ko": "운명",
+      "translation_ar": "القدر / المصير",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Reunion",
+      "term_ko": "재회",
+      "translation_ar": "لقاء بعد فراق",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Secret",
+      "term_ko": "비밀",
+      "translation_ar": "السر",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Revenge",
+      "term_ko": "복수",
+      "translation_ar": "الانتقام",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Birth Secret",
+      "term_ko": "출생의 비밀",
+      "translation_ar": "سر الميلاد",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Affair",
+      "term_ko": "불륜",
+      "translation_ar": "علاقة غير شرعية",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Uncle",
+      "term_ko": "삼촌",
+      "translation_ar": "العم / الخال",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف العائلة."
+    },
+    {
+      "term_en": "Stepmother",
+      "term_ko": "계모",
+      "translation_ar": "زوجة الأب",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف العائلة."
+    },
+    {
+      "term_en": "Best Friend",
+      "term_ko": "절친",
+      "translation_ar": "الصديق المقرب",
+      "category": "person",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Misunderstanding",
+      "term_ko": "오해",
+      "translation_ar": "سوء فهم",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Sacrifice",
+      "term_ko": "희생",
+      "translation_ar": "تضحية",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Engagement",
+      "term_ko": "약혼",
+      "translation_ar": "خطوبة",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Inheritance",
+      "term_ko": "유산",
+      "translation_ar": "إرث",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف العائلة."
+    },
+    {
+      "term_en": "Conflict",
+      "term_ko": "갈등",
+      "translation_ar": "صراع",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Fateful Encounter",
+      "term_ko": "운명적 만남",
+      "translation_ar": "لقاء قدري",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Identity",
+      "term_ko": "정체",
+      "translation_ar": "الهوية",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Betrayal",
+      "term_ko": "배신",
+      "translation_ar": "خيانة",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Shocking Truth",
+      "term_ko": "충격적 진실",
+      "translation_ar": "الحقيقة الصادمة",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Double Life",
+      "term_ko": "이중생활",
+      "translation_ar": "حياة مزدوجة",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Forbidden Love",
+      "term_ko": "금지된 사랑",
+      "translation_ar": "حب ممنوع",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف الرومانسية."
+    },
+    {
+      "term_en": "Family Drama",
+      "term_ko": "가족 드라마",
+      "translation_ar": "دراما عائلية",
+      "category": "other",
+      "notes": "من مصطلحات تصنيف العائلة."
+    },
+    {
+      "term_en": "Player",
+      "term_ko": "플레이어",
+      "translation_ar": "اللاعب",
+      "category": "person",
+      "notes": "من مصطلحات مانهوات النظام: من يدخل العالم بصفة اللاعب."
+    },
+    {
+      "term_en": "Awakener",
+      "term_ko": "각성자",
+      "translation_ar": "المستيقظ / المتفتح",
+      "category": "person",
+      "notes": "من مصطلحات مانهوات النظام: شخص استيقظت قدراته."
+    },
+    {
+      "term_en": "Skill",
+      "term_ko": "스킬",
+      "translation_ar": "المهارة",
+      "category": "skill",
+      "notes": "من مصطلحات مانهوات النظام: قدرة تمنحها اللعبة للاعب."
+    },
+    {
+      "term_en": "Tower",
+      "term_ko": "탑",
+      "translation_ar": "البرج",
+      "category": "place",
+      "notes": "من مصطلحات مانهوات النظام: بنية طبقية يتدرج فيها اللاعب."
+    },
+    {
+      "term_en": "Reward",
+      "term_ko": "보상",
+      "translation_ar": "المكافأة",
+      "category": "object",
+      "notes": "من مصطلحات مانهوات النظام: ما يعود على اللاعب بعد إنجاز المهمة."
+    },
+    {
+      "term_en": "Item",
+      "term_ko": "아이템",
+      "translation_ar": "عنصر / غرض",
+      "category": "object",
+      "notes": "من مصطلحات مانهوات النظام: أداة أو غرض يستعمله اللاعب."
+    },
+    {
+      "term_en": "Equipment",
+      "term_ko": "장비",
+      "translation_ar": "المعدات",
+      "category": "object",
+      "notes": "من مصطلحات مانهوات النظام: أسلحة ودروع اللاعب."
+    },
+    {
+      "term_en": "Contract",
+      "term_ko": "계약",
+      "translation_ar": "العقد",
+      "category": "other",
+      "notes": "من مصطلحات مانهوات النظام: عقد يبرمه اللاعب مع كيان خارق."
+    },
+    {
+      "term_en": "Stat",
+      "term_ko": "스탯",
+      "translation_ar": "الإحصائيات",
+      "category": "skill",
+      "notes": "من مصطلحات مانهوات النظام: قيم قوة اللاعب الرقمية."
+    },
+    {
+      "term_en": "Artifact",
+      "term_ko": "유물",
+      "translation_ar": "قطعة أثرية",
+      "category": "object",
+      "notes": "من مصطلحات مانهوات النظام: أداة قديمة بقوة خارقة."
+    },
+    {
+      "term_en": "Mental World",
+      "term_ko": "정신 세계",
+      "translation_ar": "العالم العقلي",
+      "category": "place",
+      "notes": "من مصطلحات مانهوات النظام: فضاء داخلي في عقل الشخصية."
+    },
+    {
+      "term_en": "Ancient Civilization",
+      "term_ko": "고대 문명",
+      "translation_ar": "حضارة قديمة",
+      "category": "other",
+      "notes": "من مصطلحات مانهوات النظام: أصل النظام والقدرات."
+    },
+    {
+      "term_en": "Growth Limit",
+      "term_ko": "성장 제한",
+      "translation_ar": "حد النمو",
+      "category": "skill",
+      "notes": "من مصطلحات مانهوات النظام: سقف تطور اللاعب."
+    },
+    {
+      "term_en": "Administrator",
+      "term_ko": "관리자",
+      "translation_ar": "المدير / الكيان المتحكم بالنظام",
+      "category": "person",
+      "notes": "من مصطلحات مانهوات النظام: الكيان الذي يدير النظام ويتحكم به."
+    },
+    {
+      "term_en": "Refining",
+      "term_ko": "수련",
+      "translation_ar": "الصقل",
+      "category": "skill",
+      "notes": "الووشيا: تحويل الطاقة وتطوير الجسد. لا تترجم زراعة أو تلميع. الصقل/التدريب. مرادفات للممارس: متدرب، محارب، صاقل، ممارس، طاوي."
+    },
+    {
+      "term_en": "Formation",
+      "term_ko": "진법",
+      "translation_ar": "التشكيلة / المصفوفة السحرية",
+      "category": "skill",
+      "notes": "الووشيا: ترتيب سحري يركّز الطاقة. يمكن أيضاً تكوين، مصفوفة سحرية."
+    },
+    {
+      "term_en": "Heavenly Tribulation",
+      "term_ko": "",
+      "translation_ar": "المحنة السماوية",
+      "category": "skill",
+      "notes": "الووشيا: اختبار سماوي يعترض الطاوي عند الترقي. لا تترجم الضيقة السماوية."
+    },
+    {
+      "term_en": "Technique",
+      "term_ko": "기법",
+      "translation_ar": "التقنية",
+      "category": "skill",
+      "notes": "الووشيا: التقنية لا المهارة (Skill). الفرق أن التقنية مهارة مقننة بنمط خاص."
+    },
+    {
+      "term_en": "Emperor",
+      "term_ko": "황제",
+      "translation_ar": "الإمبراطور",
+      "category": "title",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "King",
+      "term_ko": "왕",
+      "translation_ar": "الملك",
+      "category": "title",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Crown Prince",
+      "term_ko": "왕세자",
+      "translation_ar": "ولي العهد",
+      "category": "title",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Queen Consort",
+      "term_ko": "중전",
+      "translation_ar": "الملكة (القرينة)",
+      "category": "title",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Crown Princess",
+      "term_ko": "세자빈",
+      "translation_ar": "زوجة ولي العهد",
+      "category": "title",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Concubine",
+      "term_ko": "후궁",
+      "translation_ar": "الجارية الملكية",
+      "category": "title",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Eunuch",
+      "term_ko": "내관",
+      "translation_ar": "الخصي",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Court Lady",
+      "term_ko": "궁녀",
+      "translation_ar": "وصيفة القصر",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Minister",
+      "term_ko": "대감",
+      "translation_ar": "الوزير / المسؤول السامي",
+      "category": "title",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "General",
+      "term_ko": "장군",
+      "translation_ar": "الجنرال / القائد العسكري",
+      "category": "title",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Warrior",
+      "term_ko": "무사",
+      "translation_ar": "المحارب",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Scholar-Official",
+      "term_ko": "사대부",
+      "translation_ar": "المسؤول المتعلم / النبيل",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Aristocrat",
+      "term_ko": "양반",
+      "translation_ar": "الأرستقراطي",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Royal Court",
+      "term_ko": "조정",
+      "translation_ar": "البلاط الملكي",
+      "category": "organization",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Illegitimate Son",
+      "term_ko": "서자",
+      "translation_ar": "الابن غير الشرعي",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Lowborn / Slave",
+      "term_ko": "천민",
+      "translation_ar": "العبيد / الطبقة الدنيا",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Constable",
+      "term_ko": "포졸",
+      "translation_ar": "الحارس / الشرطي",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Royal Decree",
+      "term_ko": "명령",
+      "translation_ar": "الأمر الملكي",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Royal Seal",
+      "term_ko": "옥새",
+      "translation_ar": "الختم الملكي",
+      "category": "object",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Rebellion",
+      "term_ko": "반란",
+      "translation_ar": "التمرد / الثورة",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Prestigious Family",
+      "term_ko": "명문가",
+      "translation_ar": "العائلة النبيلة",
+      "category": "organization",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Royal Wedding",
+      "term_ko": "가례",
+      "translation_ar": "الزفاف الملكي",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Confucian Classics",
+      "term_ko": "사서삼경",
+      "translation_ar": "الكتب الكونفوشيوسية الكلاسيكية",
+      "category": "object",
+      "notes": "من مصطلحات التصنيف التاريخي/الملكي."
+    },
+    {
+      "term_en": "Hey",
+      "term_ko": "야",
+      "translation_ar": "مهلًا / هاي",
+      "category": "other",
+      "notes": "نداء انتباه. مهلًا أو هاي حسب السياق."
+    },
+    {
+      "term_en": "Yes",
+      "term_ko": "예",
+      "translation_ar": "نعم / معذرةً / ماذا",
+      "category": "other",
+      "notes": "حسب الموقع: نعم، أو معذرةً، أو ماذا؟ عند الاستفهام."
+    },
+    {
+      "term_en": "Huh?",
+      "term_ko": "응",
+      "translation_ar": "هاه؟ / نعم",
+      "category": "other",
+      "notes": "سؤال تعجبي أو إجابة قصيرة."
+    },
+    {
+      "term_en": "Well",
+      "term_ko": "자",
+      "translation_ar": "حسنًا",
+      "category": "other",
+      "notes": "للتمهيد أو البدء. أحياناً لا تُترجم."
+    },
+    {
+      "term_en": "What?",
+      "term_ko": "뭐",
+      "translation_ar": "ماذا؟ / حسنًا",
+      "category": "other",
+      "notes": "استفهام، وساعات بمعنى حسنًا."
+    },
+    {
+      "term_en": "Oh!",
+      "term_ko": "오",
+      "translation_ar": "أوه",
+      "category": "other",
+      "notes": "تعجب."
+    },
+    {
+      "term_en": "But",
+      "term_ko": "하지만",
+      "translation_ar": "لكن",
+      "category": "other",
+      "notes": "غالباً في آخر الجملة."
+    },
+    {
+      "term_en": "No",
+      "term_ko": "아니",
+      "translation_ar": "لا / كلا",
+      "category": "other",
+      "notes": "نفي."
+    },
+    {
+      "term_en": "Sigh",
+      "term_ko": "흐윽",
+      "translation_ar": "تنهد / هااا",
+      "category": "sfx",
+      "notes": "صوت تنهّد أو كرب."
+    },
+    {
+      "term_en": "Tsk",
+      "term_ko": "쯧",
+      "translation_ar": "تسك",
+      "category": "sfx",
+      "notes": "صوت انزعاج أو استهجان."
+    },
+    {
+      "term_en": "Yes / Okay / I see",
+      "term_ko": "네",
+      "translation_ar": "نعم / أجل / حسناً / فهمت",
+      "category": "other",
+      "notes": "إجابة إيجابية متعددة الاستخدامات."
+    },
+    {
+      "term_en": "Really?",
+      "term_ko": "진짜",
+      "translation_ar": "حقاً؟",
+      "category": "other",
+      "notes": "استفهام تصديق."
+    },
+    {
+      "term_en": "Oh my! / Oh dear!",
+      "term_ko": "아이구",
+      "translation_ar": "يا إلهي! / يا ويلي!",
+      "category": "other",
+      "notes": "تعجب من المفاجأة أو الإحباط أو الشفقة أو الألم."
+    },
+    {
+      "term_en": "What?! / No way!",
+      "term_ko": "헐",
+      "translation_ar": "مستحيل! / يا للهول! / ماذا؟!",
+      "category": "other",
+      "notes": "صدمة أو عدم تصديق."
+    },
+    {
+      "term_en": "Gasp!",
+      "term_ko": "헉",
+      "translation_ar": "شهقة!",
+      "category": "sfx",
+      "notes": "صوت مفاجأة أو صدمة."
+    },
+    {
+      "term_en": "Oh my! / Oops!",
+      "term_ko": "어머",
+      "translation_ar": "يا إلهي! / أوبس!",
+      "category": "other",
+      "notes": "مفاجأة، غالباً تستخدمه النساء."
+    },
+    {
+      "term_en": "Sorry",
+      "term_ko": "미안해",
+      "translation_ar": "آسف / آسفة",
+      "category": "other",
+      "notes": "اعتذار غير رسمي."
+    },
+    {
+      "term_en": "Thanks",
+      "term_ko": "고마워",
+      "translation_ar": "شكراً",
+      "category": "other",
+      "notes": "شكر غير رسمي."
+    },
+    {
+      "term_en": "It's okay",
+      "term_ko": "괜찮아",
+      "translation_ar": "لا بأس / أنا بخير / هل أنت بخير؟",
+      "category": "other",
+      "notes": "حسب السياق."
+    },
+    {
+      "term_en": "Battle",
+      "term_ko": "전투",
+      "translation_ar": "معركة",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Enemy",
+      "term_ko": "적",
+      "translation_ar": "العدو",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Attack",
+      "term_ko": "공격",
+      "translation_ar": "الهجوم",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Defense",
+      "term_ko": "방어",
+      "translation_ar": "الدفاع",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Weapon",
+      "term_ko": "무기",
+      "translation_ar": "السلاح",
+      "category": "object",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Assassin",
+      "term_ko": "암살자",
+      "translation_ar": "القاتل المأجور",
+      "category": "person",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Escape",
+      "term_ko": "도망",
+      "translation_ar": "الهروب",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Pursuit",
+      "term_ko": "추격",
+      "translation_ar": "المطاردة",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Speed",
+      "term_ko": "속도",
+      "translation_ar": "السرعة",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Strength",
+      "term_ko": "힘",
+      "translation_ar": "القوة",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Stamina",
+      "term_ko": "체력",
+      "translation_ar": "قدرة التحمل",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Explosion",
+      "term_ko": "폭발",
+      "translation_ar": "الانفجار",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Blood",
+      "term_ko": "피",
+      "translation_ar": "الدم",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Training",
+      "term_ko": "훈련",
+      "translation_ar": "التدريب",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Mission",
+      "term_ko": "임무",
+      "translation_ar": "المهمة",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Organization",
+      "term_ko": "조직",
+      "translation_ar": "المنظمة",
+      "category": "organization",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Survival",
+      "term_ko": "생존",
+      "translation_ar": "النجاة",
+      "category": "other",
+      "notes": "من مصطلحات التصنيف القتالي."
+    },
+    {
+      "term_en": "Killing Intent",
+      "term_ko": "살기",
+      "translation_ar": "نية القتل",
+      "category": "other",
+      "notes": "الووشيا: الإحساس الذي يُشعره المقاتل قبل الهجوم المميت."
+    },
+    {
+      "term_en": "Seven Deadly Sins",
+      "term_ko": "칠죄종",
+      "translation_ar": "الخطايا السبع المميتة",
+      "category": "other",
+      "notes": "الخطايا: الغرور، الجشع، الشهوة، الحسد، الشراهة، الغضب، الكسل."
+    },
+    {
+      "term_en": "Pride",
+      "term_ko": "교만",
+      "translation_ar": "الغرور",
+      "category": "other",
+      "notes": "الخطيئة الأولى."
+    },
+    {
+      "term_en": "Greed",
+      "term_ko": "탐욕",
+      "translation_ar": "الجشع",
+      "category": "other",
+      "notes": "الخطيئة الثانية."
+    },
+    {
+      "term_en": "Lust",
+      "term_ko": "색욕",
+      "translation_ar": "الشهوة",
+      "category": "other",
+      "notes": "الخطيئة الثالثة."
+    },
+    {
+      "term_en": "Envy",
+      "term_ko": "질투",
+      "translation_ar": "الحسد",
+      "category": "other",
+      "notes": "الخطيئة الرابعة."
+    },
+    {
+      "term_en": "Gluttony",
+      "term_ko": "탐식",
+      "translation_ar": "الشراهة",
+      "category": "other",
+      "notes": "الخطيئة الخامسة."
+    },
+    {
+      "term_en": "Wrath",
+      "term_ko": "분노",
+      "translation_ar": "الغضب",
+      "category": "other",
+      "notes": "الخطيئة السادسة."
+    },
+    {
+      "term_en": "Sloth",
+      "term_ko": "나태",
+      "translation_ar": "الكسل",
+      "category": "other",
+      "notes": "الخطيئة السابعة."
+    },
+    {
+      "term_en": "Huh...?",
+      "term_ko": "어",
+      "translation_ar": "ماذا...؟ / هاه...؟ / همم...؟",
+      "category": "other",
+      "notes": "تردد أو استغراب."
+    },
+    {
+      "term_en": "Luke Yeager",
+      "term_ko": "루크 예거",
+      "translation_ar": "لوك ييغر",
+      "category": "person",
+      "notes": "اسم شخصية."
+    },
+    {
+      "term_en": "Hyde",
+      "term_ko": "하이든",
+      "translation_ar": "هايد",
+      "category": "person",
+      "notes": "اسم شخصية."
+    },
+    {
+      "term_en": "Stalking",
+      "term_ko": "몰래 미행",
+      "translation_ar": "تتبع سراً",
+      "category": "other",
+      "notes": "من مصطلحات التحقيق."
+    },
+    {
+      "term_en": "Guess",
+      "term_ko": "추측",
+      "translation_ar": "تخمين",
+      "category": "other",
+      "notes": "من مصطلحات التحقيق."
+    },
+    {
+      "term_en": "Deny",
+      "term_ko": "부정",
+      "translation_ar": "تنفِ / إنكار",
+      "category": "other",
+      "notes": "نفي واتهام."
+    },
+    {
+      "term_en": "Correct Answer",
+      "term_ko": "정답",
+      "translation_ar": "أصبتَ الهدف",
+      "category": "other",
+      "notes": "تعبير تأكيد على صواب القول."
+    },
+    {
+      "term_en": "Talk",
+      "term_ko": "얘기",
+      "translation_ar": "حديث",
+      "category": "other",
+      "notes": "محادثة."
+    },
+    {
+      "term_en": "Duty",
+      "term_ko": "의무",
+      "translation_ar": "الواجب",
+      "category": "other",
+      "notes": "التزام."
+    },
+    {
+      "term_en": "Recruit Offer",
+      "term_ko": "영입제의",
+      "translation_ar": "عرض الانضمام",
+      "category": "other",
+      "notes": "عرض تجنيد."
+    },
+    {
+      "term_en": "Knight",
+      "term_ko": "기사단원",
+      "translation_ar": "فارس / عضو في فرسان",
+      "category": "person",
+      "notes": "من فرسان النور."
+    },
+    {
+      "term_en": "Participate",
+      "term_ko": "참여",
+      "translation_ar": "يشارك",
+      "category": "other",
+      "notes": "مشاركة."
+    },
+    {
+      "term_en": "Victory",
+      "term_ko": "우승",
+      "translation_ar": "الفوز",
+      "category": "other",
+      "notes": "فوز بالبطولة."
+    },
+    {
+      "term_en": "Winner",
+      "term_ko": "우승자",
+      "translation_ar": "الفائز",
+      "category": "person",
+      "notes": "من فاز بالبطولة."
+    },
+    {
+      "term_en": "Recruit",
+      "term_ko": "영입하다",
+      "translation_ar": "تجنيد",
+      "category": "other",
+      "notes": "ضم شخص للفريق."
+    },
+    {
+      "term_en": "Vasor",
+      "term_ko": "바르",
+      "translation_ar": "فاشور",
+      "category": "place",
+      "notes": "مدينة/مكان."
+    },
+    {
+      "term_en": "Hot",
+      "term_ko": "덥다",
+      "translation_ar": "حارة",
+      "category": "other",
+      "notes": "وصف الجو."
+    },
+    {
+      "term_en": "Accompany me",
+      "term_ko": "함께해주다",
+      "translation_ar": "ترافقني",
+      "category": "other",
+      "notes": "طلب مرافقة."
+    },
+    {
+      "term_en": "My Person",
+      "term_ko": "내 사람",
+      "translation_ar": "شخصي / المقرب مني",
+      "category": "other",
+      "notes": "ولاء."
+    },
+    {
+      "term_en": "Completely on my side",
+      "term_ko": "완전한 내편",
+      "translation_ar": "في صفي تماماً",
+      "category": "other",
+      "notes": "ولاء تام."
+    },
+    {
+      "term_en": "Conclusion",
+      "term_ko": "결론",
+      "translation_ar": "القرار / الخلاصة",
+      "category": "other",
+      "notes": "نتيجة تفكير."
+    },
+    {
+      "term_en": "Information Gathering",
+      "term_ko": "정보수집",
+      "translation_ar": "جمع المعلومات",
+      "category": "other",
+      "notes": "استخبارات."
+    },
+    {
+      "term_en": "My Favor",
+      "term_ko": "제 호의",
+      "translation_ar": "عرضي النبيل",
+      "category": "other",
+      "notes": "عرض سخي."
+    },
+    {
+      "term_en": "Consider Later",
+      "term_ko": "나중에 고려",
+      "translation_ar": "التفكير فيه لاحقاً",
+      "category": "other",
+      "notes": "تأجيل القرار."
+    },
+    {
+      "term_en": "Information",
+      "term_ko": "정보",
+      "translation_ar": "معلومات",
+      "category": "other",
+      "notes": "بيانات."
+    },
+    {
+      "term_en": "Knight Commander",
+      "term_ko": "기사단장",
+      "translation_ar": "قائد الفرسان",
+      "category": "title",
+      "notes": "رئيس فرسان النور."
+    },
+    {
+      "term_en": "Palma Knights",
+      "term_ko": "팔마기사단",
+      "translation_ar": "فرسان النور",
+      "category": "organization",
+      "notes": "جماعة فرسان."
+    },
+    {
+      "term_en": "Vasor Martial Arts Tournament",
+      "term_ko": "바소르무투회",
+      "translation_ar": "بطولة فاسور للمعارك",
+      "category": "organization",
+      "notes": "بطولة قتال."
+    },
+    {
+      "term_en": "Magic",
+      "term_ko": "마법",
+      "translation_ar": "السحر",
+      "category": "skill",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Holy Sword",
+      "term_ko": "성검",
+      "translation_ar": "السيف المقدس",
+      "category": "object",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Hero",
+      "term_ko": "용사",
+      "translation_ar": "البطل",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Demon King",
+      "term_ko": "마왕",
+      "translation_ar": "ملك الشياطين",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Dragon",
+      "term_ko": "드래곤",
+      "translation_ar": "تنين",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Elf",
+      "term_ko": "엘프",
+      "translation_ar": "جان / إلف",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر. إلف أقرب لفظاً."
+    },
+    {
+      "term_en": "Mage",
+      "term_ko": "마도사",
+      "translation_ar": "ساحر",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Monster",
+      "term_ko": "마물",
+      "translation_ar": "وحش سحري",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Reincarnation",
+      "term_ko": "전생",
+      "translation_ar": "إعادة ولادة",
+      "category": "other",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Another World",
+      "term_ko": "이세계",
+      "translation_ar": "عالم آخر",
+      "category": "place",
+      "notes": "من مصطلحات الإيسيكاي."
+    },
+    {
+      "term_en": "Demon Tribe",
+      "term_ko": "마족",
+      "translation_ar": "قبيلة الشياطين",
+      "category": "organization",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Alchemy",
+      "term_ko": "연금술",
+      "translation_ar": "الخيمياء",
+      "category": "skill",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Wizard",
+      "term_ko": "마법사",
+      "translation_ar": "ساحر",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Unicorn",
+      "term_ko": "유니콘",
+      "translation_ar": "وحيد القرن",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Fairy",
+      "term_ko": "요정",
+      "translation_ar": "جنية",
+      "category": "person",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Spell",
+      "term_ko": "주문",
+      "translation_ar": "تعويذة",
+      "category": "skill",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Kingdom",
+      "term_ko": "왕국",
+      "translation_ar": "مملكة",
+      "category": "place",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Castle",
+      "term_ko": "성",
+      "translation_ar": "قلعة",
+      "category": "place",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Prophecy",
+      "term_ko": "예언",
+      "translation_ar": "نبوءة",
+      "category": "other",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Myth",
+      "term_ko": "신화",
+      "translation_ar": "أسطورة",
+      "category": "other",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Legend",
+      "term_ko": "전설",
+      "translation_ar": "أسطورة / خرافة",
+      "category": "other",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Ancient",
+      "term_ko": "고대",
+      "translation_ar": "قديم",
+      "category": "other",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Magic Sword",
+      "term_ko": "마법 검",
+      "translation_ar": "سيف سحري",
+      "category": "object",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Potion",
+      "term_ko": "비약",
+      "translation_ar": "جرعة",
+      "category": "object",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Portal",
+      "term_ko": "차원문",
+      "translation_ar": "بوابة",
+      "category": "place",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Divine",
+      "term_ko": "신성한",
+      "translation_ar": "مقدس",
+      "category": "other",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Light",
+      "term_ko": "빛",
+      "translation_ar": "النور",
+      "category": "other",
+      "notes": "من مصطلحات الخيال/السحر."
+    },
+    {
+      "term_en": "Mana Stone",
+      "term_ko": "마력석",
+      "translation_ar": "حجر المانا / حجر سحري",
+      "category": "object",
+      "notes": "حجر يحمل طاقة سحرية."
+    },
+    {
+      "term_en": "Magic Stone",
+      "term_ko": "마정석",
+      "translation_ar": "حجر سحري / حجر مانا",
+      "category": "object",
+      "notes": "حجر طاقة سحرية."
+    },
+    {
+      "term_en": "Aura",
+      "term_ko": "오라",
+      "translation_ar": "هالة",
+      "category": "skill",
+      "notes": "طاقة محيطة بالشخص."
+    },
+    {
+      "term_en": "Ether",
+      "term_ko": "에테르",
+      "translation_ar": "الأثير",
+      "category": "skill",
+      "notes": "جوهر الطاقة في العالم السحري."
+    },
+    {
+      "term_en": "Element",
+      "term_ko": "원소",
+      "translation_ar": "العنصر",
+      "category": "skill",
+      "notes": "عناصر الطبيعة الأربعة."
+    },
+    {
+      "term_en": "Elemental Power",
+      "term_ko": "원소력",
+      "translation_ar": "قوة العناصر",
+      "category": "skill",
+      "notes": "طاقة العناصر."
+    },
+    {
+      "term_en": "Water",
+      "term_ko": "물",
+      "translation_ar": "ماء",
+      "category": "skill",
+      "notes": "عنصر الماء."
+    },
+    {
+      "term_en": "Fire",
+      "term_ko": "불",
+      "translation_ar": "نار",
+      "category": "skill",
+      "notes": "عنصر النار."
+    },
+    {
+      "term_en": "Earth",
+      "term_ko": "흙",
+      "translation_ar": "تراب / أرض",
+      "category": "skill",
+      "notes": "عنصر الأرض."
+    },
+    {
+      "term_en": "Wind",
+      "term_ko": "바람",
+      "translation_ar": "رياح",
+      "category": "skill",
+      "notes": "عنصر الرياح."
+    },
+    {
+      "term_en": "Master",
+      "term_ko": "스승님",
+      "translation_ar": "السيد / المعلم",
+      "category": "title",
+      "notes": "لقب الاحترام للمعلم في الموريم."
+    },
+    {
+      "term_en": "Dark Shadow",
+      "term_ko": "암영사",
+      "translation_ar": "الظل المظلم",
+      "category": "person",
+      "notes": "كيان أو مهارة."
+    },
+    {
+      "term_en": "Phantom Strike",
+      "term_ko": "잔상권",
+      "translation_ar": "ضربة الوهم",
+      "category": "skill",
+      "notes": "تقنية ضرب سريعة تترك أثراً."
+    },
+    {
+      "term_en": "Heaven Beyond Heaven",
+      "term_ko": "천외천",
+      "translation_ar": "سماء خارج السماء / أبناء السماء",
+      "category": "place",
+      "notes": "ممكن تترجم أبناء السماء أفضل حسب السياق."
+    },
+    {
+      "term_en": "Dark Venerable",
+      "term_ko": "암존",
+      "translation_ar": "الظل المتسامي",
+      "category": "title",
+      "notes": "لقب رفيع."
+    },
+    {
+      "term_en": "Six Venerables",
+      "term_ko": "육존자",
+      "translation_ar": "السادة الستة",
+      "category": "title",
+      "notes": "مجموعة ألقاب رفيعة."
+    },
+    {
+      "term_en": "Spirit",
+      "term_ko": "정령",
+      "translation_ar": "روح (عنصرية/طبيعية)",
+      "category": "person",
+      "notes": "كائن روحي."
+    },
+    {
+      "term_en": "Holy Relic",
+      "term_ko": "성물",
+      "translation_ar": "أثر مقدس",
+      "category": "object",
+      "notes": "قطعة دينية مقدسة."
+    },
+    {
+      "term_en": "Status Window",
+      "term_ko": "상태창",
+      "translation_ar": "نافذة الحالة",
+      "category": "skill",
+      "notes": "من مصطلحات النظام: واجهة تعرض بيانات اللاعب."
+    },
+    {
+      "term_en": "Rune",
+      "term_ko": "룬",
+      "translation_ar": "رون",
+      "category": "object",
+      "notes": "حرف/رمز سحري يستخدم في السحر أو التعاويذ."
+    },
+    {
+      "term_en": "Ranker",
+      "term_ko": "랭커",
+      "translation_ar": "المُصنَّف",
+      "category": "person",
+      "notes": "من حصل على مرتبة عالية."
+    },
+    {
+      "term_en": "Regression",
+      "term_ko": "회귀",
+      "translation_ar": "عودة إلى الماضي / تراجع زمني",
+      "category": "skill",
+      "notes": "العودة بالزمن."
+    },
+    {
+      "term_en": "Patriarch",
+      "term_ko": "총대주교",
+      "translation_ar": "البطريرك / رئيس العائلة أو العشيرة",
+      "category": "title",
+      "notes": "لقب رفيع."
+    },
+    {
+      "term_en": "Duke",
+      "term_ko": "공작",
+      "translation_ar": "الدوق",
+      "category": "title",
+      "notes": "لقب نبلاء."
+    },
+    {
+      "term_en": "Pope",
+      "term_ko": "교황",
+      "translation_ar": "بابا الكنيسة",
+      "category": "title",
+      "notes": "لقب ديني أعلى."
+    },
+    {
+      "term_en": "Archduke",
+      "term_ko": "아크듀크",
+      "translation_ar": "الأرشيدوق",
+      "category": "title",
+      "notes": "لقب شيطاني أو ملكي رفيع."
+    },
+    {
+      "term_en": "Summoner",
+      "term_ko": "소환사",
+      "translation_ar": "المستدعي / المُستحضر",
+      "category": "person",
+      "notes": "من يستدعي الكائنات."
+    },
+    {
+      "term_en": "Dimension",
+      "term_ko": "차원",
+      "translation_ar": "بُعد",
+      "category": "place",
+      "notes": "عالم/فضاء مختلف."
+    },
+    {
+      "term_en": "Dimensional Travel",
+      "term_ko": "차원 이동",
+      "translation_ar": "التنقل بين الأبعاد",
+      "category": "skill",
+      "notes": "قدرة انتقال بين العوالم."
+    },
+    {
+      "term_en": "Contractor",
+      "term_ko": "계약자",
+      "translation_ar": "المتعاقد",
+      "category": "person",
+      "notes": "من عقد عقداً مع كيان خارق."
+    },
+    {
+      "term_en": "Personal Space",
+      "term_ko": "개인 공간",
+      "translation_ar": "المساحة الشخصية / المجال الخاص",
+      "category": "skill",
+      "notes": "غالباً سلطة سحرية."
+    },
+    {
+      "term_en": "Rampage",
+      "term_ko": "광란",
+      "translation_ar": "الهيجان الدموي / الجنون القتالي",
+      "category": "other",
+      "notes": "حالة فقدان سيطرة."
+    },
+    {
+      "term_en": "Hidden Power",
+      "term_ko": "숨겨진 힘",
+      "translation_ar": "القوة الخفية",
+      "category": "skill",
+      "notes": "قوة مخفية."
+    },
+    {
+      "term_en": "Absorption",
+      "term_ko": "흡수",
+      "translation_ar": "الامتصاص",
+      "category": "skill",
+      "notes": "امتصاص الطاقة."
+    },
+    {
+      "term_en": "Memory",
+      "term_ko": "기억",
+      "translation_ar": "الذاكرة",
+      "category": "other",
+      "notes": "ذكرى."
+    },
+    {
+      "term_en": "Magic Tower",
+      "term_ko": "마법 탑",
+      "translation_ar": "البرج السحري",
+      "category": "place",
+      "notes": "مقر السحرة."
+    },
+    {
+      "term_en": "Dark Family",
+      "term_ko": "암흑 가문",
+      "translation_ar": "العائلة المظلمة",
+      "category": "organization",
+      "notes": "عائلة مظلمة."
+    },
+    {
+      "term_en": "Curse",
+      "term_ko": "저주",
+      "translation_ar": "اللعنة",
+      "category": "skill",
+      "notes": "سحر ضار."
+    },
+    {
+      "term_en": "World Tree",
+      "term_ko": "세계수",
+      "translation_ar": "شجرة العالم",
+      "category": "object",
+      "notes": "شجرة مقدسة."
+    },
+    {
+      "term_en": "Undead",
+      "term_ko": "언데드",
+      "translation_ar": "الميت الحي / الخالد",
+      "category": "person",
+      "notes": "كائنات لا تموت."
+    },
+    {
+      "term_en": "Orc",
+      "term_ko": "오크",
+      "translation_ar": "الأوروك / العفريت",
+      "category": "person",
+      "notes": "مخلوق. مسخ أيضاً من أساسيات الترجمة."
+    },
+    {
+      "term_en": "Spellbook",
+      "term_ko": "마도서",
+      "translation_ar": "كتاب سحري",
+      "category": "object",
+      "notes": "كتاب التعاويذ."
+    },
+    {
+      "term_en": "Dwarf",
+      "term_ko": "드워프",
+      "translation_ar": "القزم",
+      "category": "person",
+      "notes": "مخلوق قصير ممتلئ."
+    },
+    {
+      "term_en": "Evasion",
+      "term_ko": "회피",
+      "translation_ar": "المراوغة / التفادي",
+      "category": "skill",
+      "notes": "تفادي الهجوم."
+    },
+    {
+      "term_en": "Block",
+      "term_ko": "막기",
+      "translation_ar": "الصد / التصدي",
+      "category": "skill",
+      "notes": "دفاع عن الهجوم."
+    },
+    {
+      "term_en": "Counterattack",
+      "term_ko": "반격",
+      "translation_ar": "الهجوم المرتد",
+      "category": "skill",
+      "notes": "هجوم بعد الصد."
+    },
+    {
+      "term_en": "Ambush",
+      "term_ko": "기습",
+      "translation_ar": "الهجوم المفاجئ / الكمين",
+      "category": "skill",
+      "notes": "هجوم مباغت."
+    },
+    {
+      "term_en": "Assassination",
+      "term_ko": "암살",
+      "translation_ar": "الاغتيال",
+      "category": "other",
+      "notes": "قتل متعمد خفي."
+    },
+    {
+      "term_en": "Retreat",
+      "term_ko": "후퇴",
+      "translation_ar": "الانسحاب",
+      "category": "other",
+      "notes": "انسحاب من المعركة."
+    },
+    {
+      "term_en": "Support",
+      "term_ko": "지원",
+      "translation_ar": "الدعم / التعزيزات",
+      "category": "other",
+      "notes": "إسناد."
+    },
+    {
+      "term_en": "Ability",
+      "term_ko": "능력",
+      "translation_ar": "القدرة",
+      "category": "skill",
+      "notes": "قوة/قدرة."
+    },
+    {
+      "term_en": "Humanbeing",
+      "term_ko": "인간",
+      "translation_ar": "إنسان / بشر",
+      "category": "person",
+      "notes": "العرق البشري."
+    },
+    {
+      "term_en": "Half Demons",
+      "term_ko": "반마족",
+      "translation_ar": "أنصاف شياطين",
+      "category": "person",
+      "notes": "خليط بشر وشياطين."
+    },
+    {
+      "term_en": "Prisoner",
+      "term_ko": "포로",
+      "translation_ar": "السجين / أسير حرب",
+      "category": "person",
+      "notes": "أسير."
+    },
+    {
+      "term_en": "Prison Camp",
+      "term_ko": "수용소",
+      "translation_ar": "المُعتقل",
+      "category": "place",
+      "notes": "مكان الاحتجاز."
+    },
+    {
+      "term_en": "Jail",
+      "term_ko": "감옥",
+      "translation_ar": "الزنزانة / السجن",
+      "category": "place",
+      "notes": "مكان الحبس."
+    },
+    {
+      "term_en": "Darkness",
+      "term_ko": "어둠",
+      "translation_ar": "الظلام",
+      "category": "other",
+      "notes": "ظلمة."
+    },
+    {
+      "term_en": "Heal",
+      "term_ko": "치유",
+      "translation_ar": "العلاج / الشفاء",
+      "category": "skill",
+      "notes": "مداواة."
+    },
+    {
+      "term_en": "Rare",
+      "term_ko": "희귀",
+      "translation_ar": "نادر",
+      "category": "other",
+      "notes": "صفة القيمة."
+    },
+    {
+      "term_en": "Bump",
+      "term_ko": "혹",
+      "translation_ar": "ورم / نتوء",
+      "category": "other",
+      "notes": "نتوء في الجسم."
+    },
+    {
+      "term_en": "Murim",
+      "term_ko": "무림",
+      "translation_ar": "عالم فنون القتال / الموريم",
+      "category": "place",
+      "notes": "عالم سري يضم المحاربين والطوائف."
+    },
+    {
+      "term_en": "Murim Alliance",
+      "term_ko": "무림맹",
+      "translation_ar": "تحالف الموريم",
+      "category": "organization",
+      "notes": "تحالف الطوائف الأرثوذكسية."
+    },
+    {
+      "term_en": "Sect",
+      "term_ko": "문파",
+      "translation_ar": "الطائفة / المدرسة القتالية",
+      "category": "organization",
+      "notes": "تنظيم قتالي له تقاليد وتقنيات خاصة."
+    },
+    {
+      "term_en": "Elder",
+      "term_ko": "장로",
+      "translation_ar": "الشيخ / كبير الطائفة",
+      "category": "title",
+      "notes": "عضو رفيع ذو خبرة طويلة."
+    },
+    {
+      "term_en": "Martial Arts",
+      "term_ko": "무공",
+      "translation_ar": "الفنون القتالية",
+      "category": "skill",
+      "notes": "مهارات وتقنيات القتال التقليدية."
+    },
+    {
+      "term_en": "Internal Energy",
+      "term_ko": "내공",
+      "translation_ar": "الطاقة الداخلية",
+      "category": "skill",
+      "notes": "القوة الروحية المصقولة داخل الجسم."
+    },
+    {
+      "term_en": "Ki",
+      "term_ko": "기",
+      "translation_ar": "الطاقة الحيوية / التشي",
+      "category": "skill",
+      "notes": "طاقة الحياة الجارية في الجسم."
+    },
+    {
+      "term_en": "Disciple",
+      "term_ko": "제자",
+      "translation_ar": "التلميذ",
+      "category": "person",
+      "notes": "طالب السيد."
+    },
+    {
+      "term_en": "Dantian",
+      "term_ko": "단전",
+      "translation_ar": "مركز الطاقة / دانتيان",
+      "category": "skill",
+      "notes": "مركز الطاقة في الجسم."
+    },
+    {
+      "term_en": "Lightfoot Technique",
+      "term_ko": "경공",
+      "translation_ar": "تقنية الأقدام الخفيفة",
+      "category": "skill",
+      "notes": "تقنية حركة سريعة."
+    },
+    {
+      "term_en": "Sword Art",
+      "term_ko": "검법",
+      "translation_ar": "فن السيف / أسلوب السيف",
+      "category": "skill",
+      "notes": "تقنيات السيف."
+    },
+    {
+      "term_en": "Elixir",
+      "term_ko": "영약",
+      "translation_ar": "الإكسير الروحي / الدواء الروحي",
+      "category": "object",
+      "notes": "مادة تعزز الصقل."
+    },
+    {
+      "term_en": "Demonic Cult",
+      "term_ko": "마교",
+      "translation_ar": "الطائفة الشيطانية",
+      "category": "organization",
+      "notes": "طائفة الشر."
+    },
+    {
+      "term_en": "Orthodox Sect",
+      "term_ko": "정파",
+      "translation_ar": "الطائفة الأرثوذكسية / فصيل الخير",
+      "category": "organization",
+      "notes": "طائفة الحق."
+    },
+    {
+      "term_en": "Unorthodox Sect",
+      "term_ko": "사파",
+      "translation_ar": "الطائفة غير الأرثوذكسية / الفصيل الشرير",
+      "category": "organization",
+      "notes": "طائفة منحرفة."
+    },
+    {
+      "term_en": "Jianghu",
+      "term_ko": "강호",
+      "translation_ar": "عالم القتال / جيانغهو",
+      "category": "place",
+      "notes": "مرادف للموريم."
+    },
+    {
+      "term_en": "Breakthrough",
+      "term_ko": "돌파",
+      "translation_ar": "الاختراق / الترقية / تجاوز المستوى",
+      "category": "skill",
+      "notes": "تجاوز حد في التدريب."
+    },
+    {
+      "term_en": "Meridians",
+      "term_ko": "경맥",
+      "translation_ar": "مسارات الطاقة / قنوات الطاقة",
+      "category": "skill",
+      "notes": "قنوات في الجسم يمر فيها التشي."
+    },
+    {
+      "term_en": "Realm",
+      "term_ko": "경지",
+      "translation_ar": "المستوى / المرحلة / الرتبة",
+      "category": "title",
+      "notes": "ترتيب المقاتل ضمن نظام القوة."
+    },
+    {
+      "term_en": "Secret Manual",
+      "term_ko": "비급",
+      "translation_ar": "المخطوطة السرية / الدليل السري",
+      "category": "object",
+      "notes": "كتاب تقنيات نادرة أو ممنوعة."
+    },
+    {
+      "term_en": "Spirit Beast",
+      "term_ko": "영물",
+      "translation_ar": "الوحش الروحي / المخلوق الأسطوري",
+      "category": "person",
+      "notes": "كائن روحي قوي."
+    },
+    {
+      "term_en": "Heavenly Demon",
+      "term_ko": "천마",
+      "translation_ar": "الشيطان السماوي",
+      "category": "person",
+      "notes": "كيان شيطاني فائق."
+    },
+    {
+      "term_en": "Righteous Swordsman",
+      "term_ko": "협객",
+      "translation_ar": "المبارز النبيل / السياف الصالح",
+      "category": "person",
+      "notes": "محارب عادل."
+    },
+    {
+      "term_en": "Qi Deviation",
+      "term_ko": "주화입마",
+      "translation_ar": "انحراف التشي / السقوط في طريق الشيطان",
+      "category": "skill",
+      "notes": "خلل في الصقل بخطأ في التدريب."
+    },
+    {
+      "term_en": "Heart Demon",
+      "term_ko": "심마",
+      "translation_ar": "شيطان القلب / الشيطان الداخلي",
+      "category": "person",
+      "notes": "عائق عقلي في الصقل."
+    },
+    {
+      "term_en": "Hereditary Martial Art",
+      "term_ko": "가전무공",
+      "translation_ar": "الفن القتالي المتوارث",
+      "category": "skill",
+      "notes": "تقنية متوارثة لطائفة أو عائلة معينة."
+    },
+    {
+      "term_en": "Technique / Move",
+      "term_ko": "초식",
+      "translation_ar": "أسلوب / حركة / تقنية",
+      "category": "skill",
+      "notes": "غالباً مسبوقة برقم. تُترجم تقنية."
+    },
+    {
+      "term_en": "Killing Technique",
+      "term_ko": "살초",
+      "translation_ar": "تقنية قاتلة / مميتة / نهائية",
+      "category": "skill",
+      "notes": "살 (قاتل) + 초식 (تقنية)."
+    },
+    {
+      "term_en": "Noble House",
+      "term_ko": "세가",
+      "translation_ar": "عائلة عريقة / بيت نبيل",
+      "category": "organization",
+      "notes": "عائلة في الموريم."
+    },
+    {
+      "term_en": "Family",
+      "term_ko": "가문",
+      "translation_ar": "العائلة / العشيرة",
+      "category": "organization",
+      "notes": "بيت عائلي."
+    },
+    {
+      "term_en": "Sect Leader",
+      "term_ko": "장문인",
+      "translation_ar": "قائد الطائفة",
+      "category": "title",
+      "notes": "رأس الطائفة."
+    },
+    {
+      "term_en": "Clan Leader",
+      "term_ko": "방주",
+      "translation_ar": "قائد العشيرة / رئيس المجموعة",
+      "category": "title",
+      "notes": "رأس مجموعة أصغر من طائفة."
+    },
+    {
+      "term_en": "Cult Leader",
+      "term_ko": "교주",
+      "translation_ar": "زعيم الطائفة",
+      "category": "title",
+      "notes": "رأس المذهب."
+    },
+    {
+      "term_en": "Young Cult Leader",
+      "term_ko": "소교주",
+      "translation_ar": "الزعيم الشاب / وريث زعيم الطائفة",
+      "category": "title",
+      "notes": "الوريث."
+    },
+    {
+      "term_en": "Guardian",
+      "term_ko": "호법",
+      "translation_ar": "الحامي / الوصي",
+      "category": "title",
+      "notes": "لقب في الطائفة."
+    },
+    {
+      "term_en": "Jaegal Clan",
+      "term_ko": "제갈세가",
+      "translation_ar": "عشيرة جايجال",
+      "category": "organization",
+      "notes": "عشيرة شهيرة."
+    },
+    {
+      "term_en": "Unorthodox Assembly",
+      "term_ko": "사도련",
+      "translation_ar": "التحالف غير الأرثوذكسي",
+      "category": "organization",
+      "notes": "تجمع الطوائف المنحرفة."
+    },
+    {
+      "term_en": "Mount Hwa Clan",
+      "term_ko": "화산세가",
+      "translation_ar": "طائفة جبل هوا",
+      "category": "organization",
+      "notes": "عشيرة جبل هوا."
+    },
+    {
+      "term_en": "Hao Clan",
+      "term_ko": "하오문",
+      "translation_ar": "طائفة هاو",
+      "category": "organization",
+      "notes": "عشيرة هاو."
+    },
+    {
+      "term_en": "Central Plains",
+      "term_ko": "중원",
+      "translation_ar": "السهول الوسطى",
+      "category": "place",
+      "notes": "مركز عالم القتال."
+    },
+    {
+      "term_en": "Heavenly Demon Divine Arts",
+      "term_ko": "천마신공",
+      "translation_ar": "فن الشيطان السماوي الإلهي",
+      "category": "skill",
+      "notes": "تقنية سماوية قوية."
+    },
+    {
+      "term_en": "Sword King",
+      "term_ko": "검왕",
+      "translation_ar": "ملك السيف",
+      "category": "title",
+      "notes": "لقب أعظم سياف."
+    },
+    {
+      "term_en": "Fire King",
+      "term_ko": "화왕",
+      "translation_ar": "ملك النار",
+      "category": "title",
+      "notes": "لقب قوة النار."
+    },
+    {
+      "term_en": "Poison King",
+      "term_ko": "독왕",
+      "translation_ar": "ملك السم",
+      "category": "title",
+      "notes": "لقب قوة السم."
+    },
+    {
+      "term_en": "Poisonous Arts",
+      "term_ko": "독공",
+      "translation_ar": "فنون السم",
+      "category": "skill",
+      "notes": "تقنيات السم."
+    },
+    {
+      "term_en": "Blood Demon",
+      "term_ko": "혈마",
+      "translation_ar": "شيطان الدم",
+      "category": "person",
+      "notes": "كيان شيطاني دموي."
+    },
+    {
+      "term_en": "Protective Aura",
+      "term_ko": "강기",
+      "translation_ar": "هالة الحماية / تشي الحماية",
+      "category": "skill",
+      "notes": "طاقة واقية."
+    },
+    {
+      "term_en": "Secluded Cultivation",
+      "term_ko": "폐관수련",
+      "translation_ar": "الصقل المنعزل",
+      "category": "skill",
+      "notes": "تدريب في عزلة."
+    },
+    {
+      "term_en": "Pressure Point Attack",
+      "term_ko": "점혈",
+      "translation_ar": "هجوم نقاط الضغط / إغلاق النقاط الحيوية",
+      "category": "skill",
+      "notes": "تقنية على نقاط الجسم."
+    },
+    {
+      "term_en": "The Way",
+      "term_ko": "도",
+      "translation_ar": "الطريقة / الطاو / الدرب",
+      "category": "skill",
+      "notes": "مسار فلسفي أو قتالي."
+    },
+    {
+      "term_en": "Medical Arts",
+      "term_ko": "의술",
+      "translation_ar": "فنون الطب / تقنيات العلاج",
+      "category": "skill",
+      "notes": "طب الموريم."
+    },
+    {
+      "term_en": "Expert",
+      "term_ko": "고수",
+      "translation_ar": "الخبير / السيد",
+      "category": "person",
+      "notes": "مقاتل رفيع المستوى."
+    },
+    {
+      "term_en": "Treasure",
+      "term_ko": "보물",
+      "translation_ar": "الكنز",
+      "category": "object",
+      "notes": "ثروة."
+    },
+    {
+      "term_en": "Divine Item",
+      "term_ko": "신물",
+      "translation_ar": "قطعة أثرية سماوية",
+      "category": "object",
+      "notes": "أداة مقدسة."
+    },
+    {
+      "term_en": "Secret Technique",
+      "term_ko": "비기",
+      "translation_ar": "التقنية السرية",
+      "category": "skill",
+      "notes": "تقنية خفية."
+    },
+    {
+      "term_en": "Absolute Being",
+      "term_ko": "절대자",
+      "translation_ar": "الكائن المطلق",
+      "category": "person",
+      "notes": "أقوى كائن."
+    },
+    {
+      "term_en": "Profound Realm",
+      "term_ko": "현경",
+      "translation_ar": "العالم العميق / المرحلة العميقة",
+      "category": "title",
+      "notes": "مرحلة صقل متقدمة."
+    },
+    {
+      "term_en": "Movement Technique",
+      "term_ko": "신법",
+      "translation_ar": "تقنية الحركة",
+      "category": "skill",
+      "notes": "تقنية تنقل."
+    },
+    {
+      "term_en": "Fist Art",
+      "term_ko": "권법",
+      "translation_ar": "فن القبضة",
+      "category": "skill",
+      "notes": "تقنيات اليد."
+    },
+    {
+      "term_en": "Lightness Skill",
+      "term_ko": "경공술",
+      "translation_ar": "مهارة الخفة",
+      "category": "skill",
+      "notes": "تقنية خفة الحركة."
+    },
+    {
+      "term_en": "Spear",
+      "term_ko": "창",
+      "translation_ar": "الرمح",
+      "category": "object",
+      "notes": "سلاح رمي وطعن."
+    },
+    {
+      "term_en": "Shield",
+      "term_ko": "방패",
+      "translation_ar": "الدرع",
+      "category": "object",
+      "notes": "سلاح دفاعي."
+    },
+    {
+      "term_en": "Armor",
+      "term_ko": "갑옷",
+      "translation_ar": "الدرع (الملبوس)",
+      "category": "object",
+      "notes": "حماية تُلبس."
+    },
+    {
+      "term_en": "Bow",
+      "term_ko": "활",
+      "translation_ar": "القوس",
+      "category": "object",
+      "notes": "سلاح رمي."
+    },
+    {
+      "term_en": "Arrow",
+      "term_ko": "화살",
+      "translation_ar": "السهم",
+      "category": "object",
+      "notes": "مقذوف القوس."
+    },
+    {
+      "term_en": "Martial Way",
+      "term_ko": "무도",
+      "translation_ar": "المسار القتالي",
+      "category": "skill",
+      "notes": "الطريق القتالي."
+    }
+  ]
+}
