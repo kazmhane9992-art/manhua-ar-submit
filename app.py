@@ -26,7 +26,13 @@ from app_core import (
     preview_jsonl,
     save_jsonl,
 )
-from hf_sync import download_jsonl_to_local, get_dataset_repo, is_cloud, upload_jsonl_to_repo
+from hf_sync import (
+    archive_jsonl_in_repo,
+    download_jsonl_to_local,
+    get_dataset_repo,
+    is_cloud,
+    upload_jsonl_to_repo,
+)
 from reviewer import count_corrected, review_pairs
 
 
@@ -78,7 +84,12 @@ def maybe_auto_train(model: str, epochs: int = 3) -> None:
         job_id, n_pairs = start_training(model=model, epochs=epochs)
         st.success(f"بدأت مهمة التدريب: `{job_id}` — عدد الأزواج المدربة: {n_pairs}")
         archived = archive_submitted_files()
-        st.caption(f"نُقل {archived} ملفاً إلى مجلد archive/ ليبدأ العد من جديد لدفعة تالية.")
+        st.caption(f"نُقل {len(archived)} ملفاً إلى مجلد archive/ ليبدأ العد من جديد لدفعة تالية.")
+        if is_cloud():
+            repo_id = get_dataset_repo()
+            if repo_id:
+                n_repo = archive_jsonl_in_repo(repo_id, archived)
+                st.caption(f"أُرشفت {n_repo} ملفاً في مستودع البيانات `{repo_id}`.")
     except Exception as e:
         st.error(f"فشل بدء التدريب التلقائي: {e}")
 

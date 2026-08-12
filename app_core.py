@@ -173,19 +173,19 @@ def count_submitted_files() -> int:
     )
 
 
-def archive_submitted_files() -> int:
+def archive_submitted_files() -> list[str]:
     """نقل ملفات الرفع بعد معالجتها إلى مجلد archive/ حتى لا يُعاد تدريبها.
 
-    يعيد عدد الملفات المنقولة.
+    يعيد قائمة أسماء الملفات المنقولة.
     """
     if not TRAINING_DIR.exists():
-        return 0
+        return []
     archive_dir = TRAINING_DIR / "archive"
     archive_dir.mkdir(parents=True, exist_ok=True)
-    moved = 0
+    moved = []
     for p in sorted(TRAINING_DIR.glob("*.jsonl")):
         if p.name == "merged_finetune.jsonl":
             continue
         p.replace(archive_dir / p.name)
-        moved += 1
+        moved.append(p.name)
     return moved

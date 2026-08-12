@@ -21,8 +21,14 @@ DEFAULT_SUFFIX = "manhwa-ar-training"
 
 
 def is_cloud() -> bool:
-    """هل نعمل داخل Hugging Face Spaces؟"""
-    return bool(os.environ.get("SPACE_ID", "").strip())
+    """هل نعمل في بيئة سحابية (Hugging Face Spaces أو Streamlit Cloud)؟
+
+    يُكتشف عبر وجود SPACE_ID (في Hugging Face Spaces) أو HF_TOKEN
+    (يُضبط كسرّ في أي منصة استضافة، ولا يوجد محلياً في العادة).
+    """
+    if os.environ.get("SPACE_ID", "").strip():
+        return True
+    return bool(os.environ.get("HF_TOKEN", "").strip())
 
 
 def get_hf_token() -> str:
@@ -64,8 +70,8 @@ def download_jsonl_to_local(repo_id: str) -> int:
     except Exception:
         return 0
     for name in files:
-        if not name.endswith(".jsonl"):
-            continue
+        if not name.endswith(".jsonl") or name.startswith("archive/"):
+            continue  # الأرشفة لا تُعاد للجذر
         try:
             local_path = hf_hub_download(
                 repo_id=repo_id,
@@ -77,6 +83,42 @@ def download_jsonl_to_local(repo_id: str) -> int:
         except Exception:
             continue
     return count
+
+
+def archive_jsonl_in_repo(repo_id: str, file_names: list[str]) -> int:
+    """نقل ملفات JSONL من جذر المستودع إلى مجلد archive/ بعد انتهاء التدريب.
+
+    يُستخدم لتفادي إعادة تدريب نفس البيانات عند المزامنة التالية.
+    يعيد عدد الملفات المنقولة بنجاح.
+    """
+    if not repo_id or not file_names:
+        return 0
+    api = get_api()
+    moved = 0
+    for name in file_names:
+        if not name.endswith(".jsonl") or name.startswith("archive/"):
+            continue
+        local = TRAINING_DIR / "archive" / name
+        try:
+            # أولاً نرفع نسخة داخل مجلد archive/ ثم نحذف الأصل من الجذر
+            if local.exists():
+                api.upload_file(
+                    path_or_fileobj=str(local),
+                    path_in_repo=f"archive/{name}",
+                    repo_id=repo_id,
+                    repo_type="dataset",
+                    commit_message=f"أرشفة {name} بعد التدريب",
+                )
+            api.delete_file(
+                path_in_repo=name,
+                repo_id=repo_id,
+                repo_type="dataset",
+                commit_message=f"حذف {name} من الجذر بعد التدريب",
+            )
+            moved += 1
+        except Exception:
+            continue
+    return moved
 
 
 def upload_jsonl_to_repo(repo_id: str, local_path: Path, commit_message: str | None = None) -> bool:
