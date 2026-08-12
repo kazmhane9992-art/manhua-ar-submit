@@ -37,12 +37,14 @@ streamlit run app.py
 
 ### مجاناً (دون رصيد OpenAI)
 
-استخدم `training/colab_finetune.py` على **Google Colab المجاني**:
+[![افتح في Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kazmhane9992-art/manhua-ar-submit/blob/main/training/colab_finetune.ipynb)
 
-1. افتح [colab.research.google.com](https://colab.research.google.com) → **Runtime → Change runtime type → T4 GPU**.
-2. ارفع السكربت أو الصق محتواه في خلية.
-3. عدّل الثوابت في أعلى الملف: `HF_TOKEN` و`DATASET_REPO` و`OUTPUT_REPO`.
-4. شغّل وانتظر (20–60 دقيقة) — سيُدرَّب نموذج Qwen على بيانات مستودعك ويُرفع ناتجه لمستودعك تلقائياً.
+1. اضغط الزر أعلاه — يفتح دفتر `training/colab_finetune.ipynb` مباشرة في Colab.
+2. في Colab: **Runtime → Change runtime type → T4 GPU**.
+3. في الخلية الأولى عدّل الثوابت: `HF_TOKEN` و`DATASET_REPO` و`OUTPUT_REPO`.
+4. شغّل الخلايا بالترتيب وانتظر (20–60 دقيقة) — يُدرَّب نموذج Qwen على بيانات مستودعك ويُرفع ناتجه لمستودعك تلقائياً.
+
+السكربت النصي أيضاً متاح: `training/colab_finetune.py`.
 
 ### تلقائياً (يتطلب رصيد OpenAI)
 
