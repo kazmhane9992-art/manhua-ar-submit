@@ -31,6 +31,7 @@ from hub_sync import (
     download_jsonl_to_local,
     get_dataset_repo,
     is_cloud,
+    repo_stats,
     upload_jsonl_to_repo,
 )
 from reviewer import count_corrected, review_pairs
@@ -299,6 +300,44 @@ def render_review_mode() -> None:
 
 
 # ---------------------------------------------------------------------------
+# وضع الإحصائيات: عرض ملفات التجميع والأزواج
+# ---------------------------------------------------------------------------
+def render_stats_mode() -> None:
+    st.header("إحصائيات بيانات التدريب")
+
+    if is_cloud():
+        repo_id = get_dataset_repo()
+        if not repo_id:
+            st.warning("المستودع غير محدد. أضف HF_DATASET_REPO في Secrets.")
+            return
+        with st.spinner("جاري قراءة إحصائيات المستودع..."):
+            s = repo_stats(repo_id)
+        st.caption(f"المصدر: المستودع الدائم `{repo_id}`")
+
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("ملفات مجمّعة", s["files"])
+        c2.metric("أزواج (source/translation)", s["pairs"])
+        c3.metric("ملفات مدربة سابقاً", s["archived"])
+        c4.metric("أزواج مدربة سابقاً", s["trained"])
+
+        remaining = AUTO_TRAIN_THRESHOLD - s["files"]
+        if remaining > 0:
+            st.info(f"متبقٍ **{remaining}** ملفاً على التدريب التلقائي (الحد: {AUTO_TRAIN_THRESHOLD}).")
+        else:
+            st.success(f"بلغت الملفات حد التدريب ({AUTO_TRAIN_THRESHOLD}) — ستُدرَّب في الرفع التالي.")
+
+        langs = s.get("pairs_by_lang") or {}
+        if langs:
+            st.subheader("التوزيع حسب لغة المصدر")
+            cols = st.columns(min(len(langs), 4))
+            for col, (lang, c) in zip(cols, langs.items()):
+                label = LANG_LABELS.get(lang, lang)
+                col.metric(label, c)
+    else:
+        st.info("الإحصائيات متاحة عند تشغيل التطبيق على منصة سحابية (مع ضبط HF_TOKEN و HF_DATASET_REPO).")
+
+
+# ---------------------------------------------------------------------------
 # نقطة الدخول
 # ---------------------------------------------------------------------------
 st.set_page_config(page_title="منصة جمع وتدريب الترجمة", page_icon="📖", layout="wide")
@@ -318,12 +357,14 @@ if is_cloud():
 
 mode = st.radio(
     "الوضع",
-    options=["رفع للتدريب (المساهمون)", "مراجعة وتدقيق (الفريق)"],
+    options=["رفع للتدريب (المساهمون)", "مراجعة وتدقيق (الفريق)", "إحصائيات البيانات"],
     horizontal=True,
     key="app_mode",
 )
 
 if mode.startswith("رفع"):
     render_submit_mode()
+elif mode.startswith("إحص"):
+    render_stats_mode()
 else:
     render_review_mode()

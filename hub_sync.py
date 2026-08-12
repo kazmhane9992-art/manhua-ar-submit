@@ -12,6 +12,7 @@
                     (اختياري؛ الافتراضي username/manhwa-ar-training)
 """
 
+import json
 import os
 from pathlib import Path
 
@@ -141,3 +142,61 @@ def upload_jsonl_to_repo(repo_id: str, local_path: Path, commit_message: str | N
         return True
     except Exception:
         return False
+
+
+def repo_stats(repo_id: str) -> dict:
+    """إحصائيات بيانات التدريب في المستودع (بالقراءة فقط).
+
+    يعيد قاموساً:
+      - files: عدد ملفات JSONL المجمّعة (غير المؤرشفة)
+      - archived: عدد الملفات المؤرشفة (المدربة سابقاً)
+      - pairs: إجمالي الأزواج (source/translation) عبر الملفات المجمّعة
+      - trained: إجمالي الأزواج في الملفات المؤرشفة
+      - pairs_by_lang: عدّاد الأزواج حسب لغة المصدر
+    """
+    if not repo_id:
+        return {"files": 0, "archived": 0, "pairs": 0, "trained": 0, "pairs_by_lang": {}}
+    api = get_api()
+    stats = {"files": 0, "archived": 0, "pairs": 0, "trained": 0, "pairs_by_lang": {}}
+    try:
+        names = api.list_repo_files(repo_id=repo_id, repo_type="dataset")
+    except Exception:
+        return stats
+    for name in names:
+        if not name.endswith(".jsonl"):
+            continue
+        is_archive = name.startswith("archive/")
+        pairs, langs = _count_jsonl_pairs(api, repo_id, name)
+        if is_archive:
+            stats["archived"] += 1
+            stats["trained"] += pairs
+        else:
+            stats["files"] += 1
+            stats["pairs"] += pairs
+            for lang, c in langs.items():
+                stats["pairs_by_lang"][lang] = stats["pairs_by_lang"].get(lang, 0) + c
+    return stats
+
+
+def _count_jsonl_pairs(api, repo_id: str, name: str) -> tuple[int, dict]:
+    """قراءة ملف JSONL من المستودع وإحصاء الأزواج وتوزيعها حسب لغة المصدر."""
+    pairs = 0
+    langs: dict[str, int] = {}
+    try:
+        content = api.hf_hub_download(repo_id=repo_id, repo_type="dataset", filename=name)
+        with open(content, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    rec = json.loads(line)
+                except Exception:
+                    continue
+                if (rec.get("source") or "").strip() and (rec.get("translation") or "").strip():
+                    pairs += 1
+                    lang = rec.get("source_language") or "?"
+                    langs[lang] = langs.get(lang, 0) + 1
+    except Exception:
+        pass
+    return pairs, langs
