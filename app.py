@@ -26,7 +26,7 @@ from app_core import (
     preview_jsonl,
     save_jsonl,
 )
-from hf_sync import (
+from cloud_sync import (
     archive_jsonl_in_repo,
     download_jsonl_to_local,
     get_dataset_repo,
