@@ -117,7 +117,9 @@ def render_submit_mode() -> None:
             accept_multiple_files=True,
             key="submit_tgt",
         )
-        with st.expander("خيارات المراجعة"):
+        with st.expander("المراجعة التلقائية (اختياري)"):
+            enable_review = st.toggle("تفعيل مراجعة النموذج للترجمة", value=False, key="submit_enable_review",
+                help="يتطلب رصيد OpenAI. عند تعطيله تُحفظ الترجمات كما أرسلها المساهم دون تصحيح.")
             review_model = st.text_input("نموذج المراجعة", value="gpt-4o-mini-2024-07-18", key="submit_model")
             extra_notes = st.text_area(
                 "ملاحظات إضافية للمراجعة (اختياري)",
@@ -138,9 +140,25 @@ def render_submit_mode() -> None:
         n_pairs = sum(1 for r in rows if r.get("source", "").strip() and r.get("translation", "").strip())
         n_missing = sum(1 for r in rows if bool(r.get("source", "").strip()) != bool(r.get("translation", "").strip()))
 
-        st.info(f"النموذج يراجع الآن {n_pairs} جملة عبر {review_model}... قد يستغرق بضع دقائق.")
-        reviewed = review_pairs(rows, lang, model=review_model, extra_notes=extra_notes)
-        n_corrected = count_corrected(reviewed)
+        if enable_review:
+            st.info(f"النموذج يراجع الآن {n_pairs} جملة عبر {review_model}... قد يستغرق بضع دقائق.")
+            reviewed = review_pairs(rows, lang, model=review_model, extra_notes=extra_notes)
+            n_corrected = count_corrected(reviewed)
+        else:
+            st.info("حفظ مباشر دون مراجعة تلقائية — تُحفظ الترجمات كما أرسلها المساهم.")
+            reviewed = [
+                {
+                    "source": r.get("source", "").strip(),
+                    "original": r.get("translation", "").strip(),
+                    "translation": r.get("translation", "").strip(),
+                    "include": bool(r.get("include", True)),
+                    "file": r.get("file", ""),
+                    "status": "accepted",
+                    "reason": "",
+                }
+                for r in rows
+            ]
+            n_corrected = 0
 
         fmt = "simple"
         strip_bubbles = True
@@ -155,10 +173,15 @@ def render_submit_mode() -> None:
         c4.metric("حُفظت للتدريب", count)
 
         if count:
-            st.success(f"شكراً لك! راجع النموذج الترجمة وحُفظت {count} جملة في: `{path}`")
+            if enable_review:
+                st.success(f"شكراً لك! راجع النموذج الترجمة وحُفظت {count} جملة في: `{path}`")
+            else:
+                st.success(f"شكراً لك! حُفظت {count} جملة للتدريب في: `{path}`")
             upload_to_cloud(path)
             maybe_auto_train(model=review_model)
             with st.expander("ما الذي غيّره النموذج؟"):
+                if not enable_review:
+                    st.caption("المراجعة التلقائية معطّلة — حُفظت الترجمات كما أرسلها المساهم.")
                 for r in reviewed:
                     if r.get("status") == "corrected":
                         st.markdown(f"**الأصل:** {r['source']}")

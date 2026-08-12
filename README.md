@@ -35,8 +35,19 @@ streamlit run app.py
 
 ## التدريب
 
-- **تلقائياً**: عندما يصل عدد ملفات الرفع إلى **10** في مجلد `training_data/`، تبدأ الواجهة التدريب تلقائياً ثم تنقل الملفات إلى `training_data/archive/` لبدء دورة جديدة. (غيّر `AUTO_TRAIN_THRESHOLD` في `app.py` لتعديل الحد.)
-- **يدوياً من الطرفية**:
+### مجاناً (دون رصيد OpenAI)
+
+استخدم `training/colab_finetune.py` على **Google Colab المجاني**:
+
+1. افتح [colab.research.google.com](https://colab.research.google.com) → **Runtime → Change runtime type → T4 GPU**.
+2. ارفع السكربت أو الصق محتواه في خلية.
+3. عدّل الثوابت في أعلى الملف: `HF_TOKEN` و`DATASET_REPO` و`OUTPUT_REPO`.
+4. شغّل وانتظر (20–60 دقيقة) — سيُدرَّب نموذج Qwen على بيانات مستودعك ويُرفع ناتجه لمستودعك تلقائياً.
+
+### تلقائياً (يتطلب رصيد OpenAI)
+
+- عندما يصل عدد ملفات الرفع إلى **10** في مجلد `training_data/`، تبدأ الواجهة التدريب تلقائياً ثم تنقل الملفات إلى `training_data/archive/` لبدء دورة جديدة. (غيّر `AUTO_TRAIN_THRESHOLD` في `app.py` لتعديل الحد.)
+- يدوياً من الطرفية:
 
 ```bash
 python scripts/finetune.py prepare   # دمج الملفات في merged_finetune.jsonl
@@ -44,4 +55,4 @@ python scripts/finetune.py train     # رفع الملف وبدء مهمة ال�
 python scripts/finetune.py status    # متابعة حالة المهمة
 ```
 
-ملاحظة: يعمل التدريب التلقائي فقط عند توفر `OPENAI_API_KEY` في Secrets.
+ملاحظة: يعمل التدريب التلقائي ومراجعة الترجمة فقط عند توفر رصيد في `OPENAI_API_KEY`.
